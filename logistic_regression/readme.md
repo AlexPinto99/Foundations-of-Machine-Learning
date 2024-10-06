@@ -15,7 +15,7 @@ This repository contains an implementation of Logistic Regression for binary cla
 1.	Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/logistic-regression.git
+git clone https://github.com/AlexPinto99/logistic-regression.git
 cd logistic-regression
 ```
 

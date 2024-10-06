@@ -13,13 +13,13 @@ This repository contains implementations of Batch Gradient Descent, Stochastic G
 
 	1.	Clone the repository:
 
-git clone https://github.com/yourusername/gradient-descent-linear-regression.git
+git clone https://github.com/AlexPinto99/gradient-descent-linear-regression.git
 cd gradient-descent-linear-regression
 
 	2.	Run the script:
-
+```bash
 python gradient_descent.py
-
+```
 ## Parameters
 
 	•	X: Input features with a bias term added as the first column.
@@ -32,20 +32,21 @@ python gradient_descent.py
 ## Example
 
 The script demonstrates the use of the gradient descent algorithms on a small housing price dataset:
-
+````python
 X = np.array([[1, 1650], [1, 896], [1, 1329], [1, 2110]])  # Features with bias term
 y = np.array([215, 105, 172, 244])  # Target variable
-
+````
 The model is initialized with random parameters (theta), and the script will train the model using the three gradient descent methods.
 
 ## Output
 
 The script prints the final optimized parameters (theta) for each gradient descent method:
 
+```bash
 Theta (Batch GD): [0.250 0.600]
 Theta (SGD): [0.255 0.610]
 Theta (Mini-Batch GD): [0.253 0.605]
-
+````
 ## Customization
 
 	•	You can modify the learning rate (alpha), number of iterations (num_iters), and batch size (batch_size) in the script to experiment with different settings.
